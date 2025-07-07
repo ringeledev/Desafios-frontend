@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f5f7fa;
+}
+
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box{
+   width: 100%;
+    max-width:300px;
+    background-color: #ffff ;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 12px rgba(72, 238, 255, 0.5); /* sombra celeste */
+}
+
+.producto{
+    width: 100%;
+    max-width: 150px;
+    border-radius: 20px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn{
+    border-radius:50px ;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: #fff;
+    border:none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn--carrito{
+    background-color: #48ef;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #48ef;
+    border:1px solid #48ef;
+    transform: scale(0.95);
+}
