@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    flex-direction: row-reverse;
+}
+
+.flexbox__one{
+    background-color: brown;
+}
+
+.flexbox__two{
+    background-color: aqua;
+}
+
+.flexbox__three{
+    background-color: bisque;
+}
